@@ -17,10 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div>
-          <h1 className="font-semibold text-lg">Shadcn Recipes</h1>
-          {children}
-        </div>
+        <div>{children}</div>
       </body>
     </html>
   );
